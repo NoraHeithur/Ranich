@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Ranich</string>
+    <string name="app_name_description">Rakka ni chūi shite kudasai</string>
+    <string name="label_edit">edit</string>
+    <string name="label_personal">Personal</string>
+    <string name="label_emergency">Emergency</string>
+    <string name="label_logs">Logs</string>
+    <string name="label_information">Information</string>
+    <string name="label_contact">Contact</string>
+    <string name="label_need_help_alert">Need help alert</string>
+    <string name="label_falling_detect_alert">Falling detect alert</string>
+    <string name="label_button_clear_log">Clear logs</string>
+    <string name="label_help_alert">Help\nAlert</string>
+    <string name="lable_calling_for_help_in">Calling for help in:</string>
+    <string name="label_system_detects_you_ve_taken_a_fall">System detects\n you\'ve taken a fall.</string>
+    <string name="label_cancel_i_m_ok">Cancel I\'m OK</string>
+    <string name="label_sos">SOS</string>
+
+    <string name="label_i_am_ok">ฉันปกติดี</string>
+    <string name="label_falling_detect">แจ้งเตือนตรวจจับการล้ม</string>
+    <string name="label_help">แจ้งเตือนต้องการความช่วยเหลือ</string>
+</resources>

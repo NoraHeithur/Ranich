@@ -1,0 +1,114 @@
+[versions]
+accompanist = "0.34.0"
+androidGradlePlugin = "8.3.1"
+androidxActivity = "1.8.2"
+androidxAppcompat = "1.6.1"
+androidxConstraint = "1.0.1"
+androidxCore = "1.12.0"
+androidxFragment = "1.6.2"
+androidxLifeCycle = "2.7.0"
+androidxNavigation = "2.7.7"
+androidxPreference = "1.2.1"
+androidxRoom = "2.6.1"
+androidxSecurity = "1.1.0-alpha06"
+kotlin = "1.9.22"
+kotlinxCoroutines = "1.7.3"
+kotlinTime = "0.5.0"
+ksp = "1.9.22-1.0.17"
+junit = "4.13.2"
+androidx-test-ext-junit = "1.1.5"
+espresso-core = "3.5.1"
+composeBom = "2024.02.01"
+composeCompiler = "1.5.10"
+material = "1.11.0"
+moshi = "1.14.0"
+retrofit = "2.9.0"
+okhttp = "4.12.0"
+koin = "3.5.3"
+coil = "2.5.0"
+google-service = "4.4.1"
+cloudMessage = "23.4.1"
+peko = "3.0.4"
+
+[libraries]
+accompanist-permissions = { group = "com.google.accompanist", name = "accompanist-permissions", version.ref = "accompanist" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidxCore" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "androidxLifeCycle" }
+lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "androidxLifeCycle" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidxActivity" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidxAppcompat" }
+constraint-layout = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "androidxConstraint" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+compose-foundation = { group = "androidx.compose.foundation", name = "foundation" }
+compose-foundation-layout = { group = "androidx.compose.foundation", name = "foundation-layout" }
+ui = { group = "androidx.compose.ui", name = "ui" }
+ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+ui-font = { group = "androidx.compose.ui", name = "ui-text-google-fonts" }
+ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+material3 = { group = "androidx.compose.material3", name = "material3" }
+material-icon = { group = "androidx.compose.material", name = "material-icons-extended" }
+fragment = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "androidxFragment" }
+kotlin-time = { group = "org.jetbrains.kotlinx", name = "kotlinx-datetime", version.ref = "kotlinTime" }
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "kotlinxCoroutines" }
+kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "kotlinxCoroutines" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+navigation-frament = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "androidxNavigation" }
+navigation-ui = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "androidxNavigation" }
+navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "androidxNavigation" }
+viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "androidxLifeCycle" }
+viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "androidxLifeCycle" }
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "androidxRoom" }
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "androidxRoom" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "androidxRoom" }
+moshi = { group = "com.squareup.moshi", name = "moshi-kotlin", version.ref = "moshi" }
+moshiCodegen = { group = "com.squareup.moshi", name = "moshi-kotlin-codegen", version.ref = "moshi" }
+moshi-converter = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "retrofit" }
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+okhttp-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
+koin-bom = { group = "io.insert-koin", name = "koin-bom", version.ref = "koin" }
+koin-core = { group = "io.insert-koin", name = "koin-core" }
+koin-android = { group = "io.insert-koin", name = "koin-android" }
+koin-compose = { group = "io.insert-koin", name = "koin-androidx-compose" }
+coil = { group = "io.coil-kt", name = "coil", version.ref = "coil" }
+coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
+preference = { group = "androidx.preference", name = "preference-ktx", version.ref = "androidxPreference" }
+security = { group = "androidx.security", name = "security-crypto-ktx", version.ref = "androidxSecurity" }
+cloud-message = { group = "com.google.firebase", name = "firebase-messaging", version.ref = "cloudMessage" }
+peko = { group = "com.markodevcic", name = "peko", version.ref = "peko" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-symbol-processing = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+navigation-safearg = { id = "androidx.navigation.safeargs.kotlin", version.ref = "androidxNavigation" }
+google-service = { id = "com.google.gms.google-services", version.ref = "google-service" }
+
+[bundles]
+androidCore = [
+    "core-ktx",
+    "activity-compose",
+    "appcompat",
+    "fragment",
+    "constraint-layout",
+    "lifecycle-runtime-compose",
+    "lifecycle-runtime-ktx",
+    "viewmodel-compose",
+    "viewmodel-ktx",
+    "material",
+    "preference",
+    "security",
+    "cloud-message",
+    "accompanist-permissions",
+    "peko"
+]
+kotlinx = ["kotlinx-coroutines-android", "kotlinx-coroutines-core", "kotlin-time"]
+navigation = ["navigation-frament", "navigation-ui", "navigation-compose"]

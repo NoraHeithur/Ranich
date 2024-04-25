@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "565974699589",
+    "project_id": "fall-detection-project-b8f84",
+    "storage_bucket": "fall-detection-project-b8f84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565974699589:android:f87c86107c29a494355d2c",
+        "android_client_info": {
+          "package_name": "com.example.ranich"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4rlI5AoSNldu3qWKmsFkUZwYMoYsRiOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
